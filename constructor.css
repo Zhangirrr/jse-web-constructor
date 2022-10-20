@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.container > * {
+    box-shadow: 0 0 3px grey;
+}
+
+.page{
+    width: 60%;
+    min-height: 500px;
+}
+
+.components{
+    min-height: 500px;
+    width: 30%;
+}
